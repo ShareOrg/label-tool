@@ -34,6 +34,15 @@ Project configuration and custom labeling UI:
 
 ## Development
 
+First we need to install nodejs and yarn as follows:
+```bash
+  curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+  sudo apt-get install -y nodejs
+  sudo apt install yarn
+```
+the nodejs tutorial is https://github.com/nodesource/distributions/blob/master/README.md#deb
+## !!! Attention: Do not install cmdtest by its tips
+
 Install npm packages for client, server and the top-level folder:
 
 ```bash
